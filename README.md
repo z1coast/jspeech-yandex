@@ -32,7 +32,7 @@ String textResponse = client.recognition(yourFile);
 
 Text-to-speech synthesis:
 ```java
-File yourFile = new File("test.mp3");//Yandex will return the file in MP3 format
+File yourFile = new File("test.mp3"); // Yandex will return the file in MP3 format
 File fileResponse = client.synthesis("Привет мир!", yourFile); 
 ```
 
