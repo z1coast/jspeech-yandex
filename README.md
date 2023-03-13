@@ -14,7 +14,7 @@
 </dependency>
 ```
 
-№№ Usage example
+## Usage example
 
 Setting the language and voice for the client. By default, there are ENGLISH settings.
 ```java
