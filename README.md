@@ -20,7 +20,7 @@ Setting the language and voice for the client. By default, there are ENGLISH set
 ```java
 YandexSpeechClient client = new YandexSpeechClient("<Your API KEY>"); 
 
-client.getRecognition().setLanguage(YandexServiceLanguage.RUSSIAN); // 
+client.getRecognition().setLanguage(YandexServiceLanguage.RUSSIAN);
 client.getSynthesis().setVoice(YandexServiceVoice.RUSSIAN_ALENA_GOOD);
 ```
 
