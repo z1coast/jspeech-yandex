@@ -26,13 +26,14 @@ client.getSynthesis().setVoice(YandexServiceVoice.RUSSIAN_ALENA_GOOD);
 
 Recognize speech:
 ```java
-File exampleFile = new File("test.ogg"); // file format required by Yandex
-String textResponse = client.recognition(file);
+File yourFile = new File("test.ogg"); // file format required by Yandex
+String textResponse = client.recognition(yourFile);
 ```
 
 Text-to-speech synthesis:
 ```java
-File fileResponse = client.synthesis("Привет мир!", new File("test.mp3")); //Yandex will return the file in MP3 format
+File yourFile = new File("test.mp3");//Yandex will return the file in MP3 format
+File fileResponse = client.synthesis("Привет мир!", yourFile); 
 ```
 
 ## Contact me
