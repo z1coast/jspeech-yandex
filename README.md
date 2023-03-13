@@ -1,6 +1,6 @@
 <div align="center">
 
-# jspeech-yandex
+# ● jspeech-yandex ●
 #### Speech recognition and text-to-speech synthesis
 
 </div>
